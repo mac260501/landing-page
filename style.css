@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-section {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    padding-left: max(48px, 15%);
+    padding-right: max(48px, 15%);
+    padding-bottom: 48px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    margin-bottom: 50px;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .links {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 12px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 24px;
+}
+
+.hero-content {
+    max-width: 700px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.content-para {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button.sign-up {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    max-width: 100px;
+    color: inherit;
+    font-weight: bold;
+}
+
+.hero-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hero-img {
+    flex: 1;
+    max-width: 700px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #E5E7EB;
+}
